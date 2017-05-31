@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+dist/
+beach_app/platforms/
+beach_app/plugins/
+beach_app/www/
+npm-debug.log
