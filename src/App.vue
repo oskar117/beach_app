@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <v-ons-page>
+      <v-ons-toolbar></v-ons-toolbar>
+      <h1>daszke nie ma</h1>
+    </v-ons-page>
   </div>
 </template>
 

@@ -8,12 +8,9 @@
     "dev": "node build/dev-server.js",
     "build": "npm run vue_build && npm run cordova_build",
     "vue_build": "node build/build.js",
-    "cordova_build": "rm -rf beach_app/www/* && cp -r dist/* beach_app/www && npm run fix_android_fonts && npm run fix_android_fonts_2 && npm run copy_graphic",
+    "cordova_build": "rm -rf beach_app/www/* && cp -r dist/* beach_app/www",
     "cordova": "cd beach_app && cordova",
     "android": "npm run build && npm run cordova run android",
-    "copy_graphic": "mkdir -p beach_app/www/static/img/ && cp -r static/* beach_app/www/static/img/",
-    "fix_android_fonts": "cp -r beach_app/www/static/fonts/ beach_app/www/static/css/",
-    "fix_android_fonts_2": "mkdir -p beach_app/www/static/css/static/ && cp -r beach_app/www/static/fonts/ beach_app/www/static/css/static",
     "lint": "eslint --ext .js,.vue src",
     "eslint": "eslint"
   },
