@@ -11,11 +11,12 @@ Vue.use(VueOnsen)
 
 import App from './App'
 
-// import store from './store/index'
+import store from './store/index'
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   template: '<App/>',
+  store,
   components: { App }
 })
