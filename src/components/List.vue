@@ -1,0 +1,21 @@
+<template>
+  <v-ons-page>
+    {{msg}}
+  </v-ons-page>
+</template>
+
+<script>
+export default {
+  name: 'hello',
+  data () {
+    return {
+      msg: 'lista'
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>
