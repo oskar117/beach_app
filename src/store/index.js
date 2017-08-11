@@ -5,6 +5,11 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    test: 'test'
+    active_index: 0
+  },
+  mutations: {
+    set_active_index (state, index) {
+      state.active_index = index
+    }
   }
 })
